@@ -40,7 +40,7 @@ async def khalid(client: Client, message: Message):
         photo=f"{IMG_DEV1}",
        caption=f"""❲ Developers Bot ❳
 — — — — — — — — —
- 𖥔Dev Name :  [{OWNER_NAME}](https://t.me/{OWNER})
+ 𖥔Dev Name : {OWNER_NAME}
 𖥔 Dev User : {OWNER}""", 
         reply_markup=InlineKeyboardMarkup(
             [
