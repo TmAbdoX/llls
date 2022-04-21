@@ -41,7 +41,7 @@ async def khalid(client: Client, message: Message):
        caption=f"""❲ Developers Bot ❳
 — — — — — — — — —
 𖥔Dev Name :  [{OWNER_NAME}](https://t.me/{OWNER})
-𖥔 Dev User : {OWNER_USER}
+𖥔 Dev User : https://t.me/{OWNER}
         reply_markup=InlineKeyboardMarkup(
             [
                 [
