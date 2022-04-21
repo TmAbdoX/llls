@@ -28,6 +28,8 @@ OWNER = getenv("OWNER")
 
 OWNER_NAME = getenv("OWNER_NAME")
 
+OWNER_USER = getenv("OWNER_USER")
+
 
 
 @app.on_message(
@@ -41,7 +43,7 @@ async def khalid(client: Client, message: Message):
        caption=f"""❲ Developers Bot ❳
 — — — — — — — — —
 𖥔Dev Name :  [{OWNER_NAME}](https://t.me/{OWNER})
-𖥔 Dev User : https://t.me/{OWNER}""", 
+𖥔 Dev User : {OWNER_USER}
         reply_markup=InlineKeyboardMarkup(
             [
                 [
