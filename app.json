@@ -63,11 +63,6 @@
         "value": "",
         "required": true
       },
-      "OWNER_NAME": {
-        "description": "حط هنا اسم اكونت المطور .",
-        "value": "",
-        "required": true
-      },
       "IMG_DEV1": {
         "description": "حط لينك صورة المطور يكسمك .",
         "value": "",
