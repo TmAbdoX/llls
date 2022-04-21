@@ -49,7 +49,12 @@
         "required": true
       },
       "OWNER": {
-        "description": "حط هنا يوزر المطور يكسمك .",
+        "description": "حط هنا يوزر المطور منغير علامه @ .",
+        "value": "",
+        "required": true
+      },
+      "OWNER_USER": {
+        "description": "حط هنا يوزر المطور بعلامه @ .",
         "value": "",
         "required": true
       },
