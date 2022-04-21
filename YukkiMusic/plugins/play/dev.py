@@ -26,6 +26,9 @@ IMG_DEV1 = getenv("IMG_DEV1")
 
 OWNER = getenv("OWNER")
 
+OWNER = getenv("OWNER_NAME")
+
+
 
 @app.on_message(
     command(["المطور"])
