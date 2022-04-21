@@ -26,7 +26,7 @@ IMG_DEV1 = getenv("IMG_DEV1")
 
 OWNER = getenv("OWNER")
 
-OWNER = getenv("OWNER_NAME")
+OWNER_NAME = getenv("OWNER_NAME")
 
 
 
@@ -40,6 +40,7 @@ async def khalid(client: Client, message: Message):
         photo=f"{IMG_DEV1}",
        caption=f"""❲ Developers Bot ❳
 — — — — — — — — —
+𖥔Dev Name :  [{OWNER_NAME}](https://t.me/{OWNER})
 𖥔 Dev User : https://t.me/{OWNER}""", 
         reply_markup=InlineKeyboardMarkup(
             [
