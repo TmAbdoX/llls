@@ -48,6 +48,11 @@
         "value": "",
         "required": true
       },
+      "IMG_DEV1": {
+        "description": "حط لينك صورة المطور يكسمك .",
+        "value": "",
+        "required": true
+      },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
