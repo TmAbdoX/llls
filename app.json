@@ -34,7 +34,7 @@
         "required": true
       },
       "BOT_USERNAME": {
-        "description": حط هنا يوزر البوت بدون @ يكسمك .",
+        "description": "حط هنا يوزر البوت بدون @ يكسمك .",
         "value": "",
         "required": true
       },
