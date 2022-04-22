@@ -14,12 +14,12 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "حط هنا الايبي ايدي",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "حط هنا الايبي هاش",
         "value": "",
         "required": true
       },
@@ -29,7 +29,7 @@
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "حط هنا توكن بوتك .",
         "value": "",
         "required": true
       },
@@ -39,12 +39,17 @@
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "description": "حط هنا كود المونجو .",
         "value": "",
         "required": false
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "description": "حط اسم البوت انجلش كابيتال زيي - MIX .",
+        "value": "",
+        "required": true
+      },
+      "NAME_BOT": {
+        "description": "حط اسم البوت ب العربي زي - مكس .",
         "value": "",
         "required": true
       },
@@ -68,8 +73,13 @@
         "value": "",
         "required": true
       },
+      "IMG_BOT1": {
+        "description": "حط لينك صورة البوت يكسمك .",
+        "value": "",
+        "required": true
+      },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "حط كود الجلسه هنا .",
         "value": "",
         "required": true
       },
@@ -89,7 +99,7 @@
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
+        "description": "سيبها زي مهيا .",
         "value": "https://github.com/MD-MXX/MAXXS",
         "required": true
       },
