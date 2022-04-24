@@ -7,9 +7,14 @@ from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, ap
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 
+from config import LOG, LOG_GROUP_ID
+from YukkiMusic import app
+from YukkiMusic.utils.database import is_on_off
+
 from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 from YukkiMusic import app
 from config import BANNED_USERS, MUSIC_BOT_NAME
+from YukkiMusic.misc import SUDOERS
 
 import re
 import sys
@@ -20,7 +25,27 @@ from pyrogram import filters
 
 load_dotenv()
 
-NAME_BOT = getenv("NAME_BOT")
+def get_file_id(msg: Message):
+    if msg.media:
+        for message_type in (
+            "photo",
+            "animation",
+            "audio",
+            "document",
+            "video",
+            "video_note",
+            "voice",
+            # "contact",
+            # "dice",
+            # "poll",
+            # "location",
+            # "venue",
+            "sticker",
+        ):
+            obj = getattr(msg, message_type)
+            if obj:
+                setattr(obj, "message_type", message_type)
+                return obj
 
 
 
@@ -32,7 +57,8 @@ NAME_BOT = getenv("NAME_BOT")
 async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
-       caption=f"""انت روحقلب {NAME_BOT} 🙄💕""", 
+    async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
+                    await message.reply_photo(photo.file_id,       caption=f"""انت حبيبي روحقلبي""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
