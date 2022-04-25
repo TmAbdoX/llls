@@ -30,7 +30,7 @@ NAME_BOT = getenv("NAME_BOT")
 
 
 @app.on_message(
-    command(["بوت"])
+    command(["البوت"])
     & filters.group
     & ~filters.edited
 )
