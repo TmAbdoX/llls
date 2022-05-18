@@ -37,8 +37,6 @@ async def khalid(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "◜ 𝙈𝙞 𝙄𝙭 𝙓 ◞", url=f"https://t.me/l_Mix_1"),
-                    InlineKeyboardButton(
-                        "◜ 𝙈َ𝙖 𝘿ِ𝙞 𝙎ُ𝙤𝙉 ◞", url=f"https://t.me/MaDyY_y"),
                 ],[
                     InlineKeyboardButton(
                         "- 𝐒𝐨𝐮𝐫𝐜𝐞 𝐌𝐢𝐱 .", url=f"https://t.me/me_xec_o"),
