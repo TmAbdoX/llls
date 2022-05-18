@@ -131,11 +131,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                     InlineKeyboardButton(
                         text=_["S_B_11"], url=f"https://t.me/l_Mix_1"
                     ),
-                    InlineKeyboardButton(
-
-                        text=_["S_B_12"], url=f"https://t.me/MaDyY_y"
-
-                    ),
                 ]
             )
         if OWNER:
