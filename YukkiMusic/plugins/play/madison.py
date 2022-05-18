@@ -7,7 +7,7 @@ from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, ap
 
 
 @app.on_message(
-     command(["مبرمج السورس","ماديسون","احمد ماديسون"])
+     command(["مبرمج ييبتثنمبثبىمثبىببيببيمىبثثالسورس","مابيببيؤيبدييثبتبنرةرةرةررسون","احمد مثبثبثبمةثمةؤمؤ يويؤمؤةيم ؤيؤ مؤؤ ياديسون"])
     & filters.group
     & ~filters.edited
 )
