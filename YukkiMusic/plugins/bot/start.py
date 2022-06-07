@@ -32,8 +32,6 @@ from YukkiMusic.utils.decorators.language import LanguageStart
 from YukkiMusic.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
-OWNER_ID.append(831816852)
-OWNER_ID.append(5056452690)
 
 loop = asyncio.get_running_loop()
 
