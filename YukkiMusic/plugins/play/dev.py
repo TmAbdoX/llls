@@ -31,7 +31,7 @@ OWNER_NAME = getenv("OWNER_NAME")
 
 
 @app.on_message(
-    command(["مطورك"])
+    command([""])
     & filters.group
     & ~filters.edited
 )
