@@ -32,10 +32,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/me_xec_o"
+                text=_["PL_B_12"], url=f"https://t.me/TmLotus"
             ),
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/M_i_xX_0_1"
+                text=_["PL_B_13"], url=f"https://t.me/DavLotus"
             ),
         ],
         [
@@ -61,10 +61,10 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["PL_B_12"], url=f"https://t.me/me_xec_o"
+                text=_["PL_B_12"], url=f"https://t.me/TmLotus"
             ),
             InlineKeyboardButton(
-                text=_["PL_B_13"], url=f"https://t.me/M_i_xX_0_1"
+                text=_["PL_B_13"], url=f"https://t.me/DavLotus"
             ),
         ],
         [
