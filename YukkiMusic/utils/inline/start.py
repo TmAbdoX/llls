@@ -15,7 +15,7 @@ from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 from YukkiMusic import app
 
 
-def start_pannel(_):
+def //start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
@@ -38,7 +38,7 @@ def start_pannel(_):
                 ),
                 InlineKeyboardButton(
 
-                    text=_["S_B_9"], url=f"https://t.me/me_xec_o"
+                    text=_["S_B_9"], url=f"https://t.me/TmLotus"
 
                 ),
             ]
