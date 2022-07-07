@@ -142,8 +142,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "...جاري بحث يقلبي❤️."
-play_2 : "**🏷وضع القناة**\n\n...جاري تشغيل يحب❤️.\n**رابط القناة:** {0}"
+play_1 : "جاري التحميل انتظر قليلا.ً..🤸🏼‍♀️♥️"
+play_2 : "**🏷وضع القناة**\n\nالانضمام إلى مكالمة جماعية....💕\n**رابط القناة:** {0}"
 play_3 : "فشل المعالجه !"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
