@@ -43,7 +43,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -54,8 +54,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://github.com/GG-TT/allura",
+    "UPSTREAM_REPO"
+    "https://github.com/GG-TT/allura"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
